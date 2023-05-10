@@ -32,7 +32,7 @@ def parsimony_tournament(rng, population, n):
 
     # selecting the shortest individual
     for candidate in candidates:
-        if len(population[candidate]) < len(winner):
+        if len(str(population[candidate])) < len(str(winner)):
             winner = population[candidate]
             winner_index = candidate
 
