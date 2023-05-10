@@ -1,5 +1,5 @@
-from Individual import Individual
-from Node import Node
+from .Individual import Individual
+from .Node import Node
 import random
 
 
